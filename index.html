@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melodia: Sua Música, Sua Forma</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            
+            colors: {
+              'fundo-escuro': '#121212',
+              'roxo-melodia': '#8A2BE2',
+              'texto-cinza': '#b3b3b3',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+</head>
+
+<body class="bg-fundo-escuro text-white font-sans">
+
+   <header class="fixed top-0 left-0 w-full bg-fundo-escuro bg-opacity-80 backdrop-blur-sm z-10">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-roxo-melodia">Melodia</a>
+            <ul class="flex space-x-6">
+                <li><a href="#beneficios" class="hover:text-roxo-melodia">Benefícios</a></li>
+                <li><a href="#funcionalidades" class="hover:text-roxo-melodia">Funcionalidades</a></li>
+                <li><a href="#contato" class="hover:text-roxo-melodia">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="h-screen flex items-center justify-center text-center">
+            <div class="container mx-auto px-6">
+                <h1 class="text-5xl md:text-7xl font-bold mb-4">
+                    Melodia: Sua Música, Sua Forma 
+                </h1>
+                <p class="text-lg md:text-xl text-texto-cinza max-w-2xl mx-auto mb-8">
+                    A experiência definitiva para descobrir novos artistas, criar playlists perfeitas e curtir um som de altíssima qualidade. 
+                </p>
+                <a href="#" class="bg-roxo-melodia hover:bg-purple-700 text-white font-bold py-3 px-8 rounded-full text-lg transition duration-300">
+                    Ouvir Agora 
+                </a>
+            </div>
+        </section>
+        </section>
+
+        <section id="beneficios" class="py-20 bg-black">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold text-center mb-12">
+                    Por que escolher o <span class="text-roxo-melodia">Melodia</span>?
+                </h2>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+
+                    <div class="bg-fundo-escuro p-8 rounded-lg">
+                        <i class="fas fa-wave-square text-roxo-melodia text-4xl mb-4"></i>
+                        <h3 class="text-xl font-bold mb-2">Qualidade Superior</h3>
+                        <p class="text-texto-cinza">
+                            Ouça suas músicas favoritas com a mais alta definição de áudio.
+                        </p>
+                    </div>
+
+                    <div class="bg-fundo-escuro p-8 rounded-lg">
+                        <i class="fas fa-list-music text-roxo-melodia text-4xl mb-4"></i>
+                        <h3 class="text-xl font-bold mb-2">Playlists Inteligentes</h3>
+                        <p class="text-texto-cinza">
+                            Crie e receba sugestões de playlists que combinam com seu gosto.
+                        </p>
+                    </div>
+
+                    <div class="bg-fundo-escuro p-8 rounded-lg">
+                        <i class="fas fa-compact-disc text-roxo-melodia text-4xl mb-4"></i>
+                        <h3 class="text-xl font-bold mb-2">Descubra Artistas</h3>
+                        <p class="text-texto-cinza">
+                            Nossos algoritmos te ajudam a encontrar sua próxima banda favorita.
+                        </p>
+                    </div>
+
+                    <div class="bg-fundo-escuro p-8 rounded-lg">
+                        <i class="fas fa-mobile-screen-button text-roxo-melodia text-4xl mb-4"></i>
+                        <h3 class="text-xl font-bold mb-2">Interface Intuitiva</h3>
+                        <p class="text-texto-cinza">
+                            Navegue com facilidade e encontre o que precisa sem complicações.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="funcionalidades" class="py-20">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold text-center mb-16">
+                    Explore Recursos Incríveis
+                </h2>
+
+                <div class="space-y-16">
+
+                    <div class="flex flex-col md:flex-row items-center gap-8 md:gap-12">
+                        <div class="w-full md:w-1/2">
+                             <img src="https://www.shutterstock.com/shutterstock/videos/15961891/thumb/1.jpg?ip=x480" alt="Animação de um equalizador de som" class="rounded-lg shadow-2xl shadow-roxo-melodia/20">
+                        </div>
+                        <div class="w-full md:w-1/2 text-center md:text-left">
+                            <h3 class="text-3xl font-bold mb-4 text-roxo-melodia">Equalizador Avançado</h3>
+                            <p class="text-texto-cinza mb-4">
+                                Personalize sua experiência sonora com um equalizador completo. Ajuste graves, médios e agudos ou use presets criados por especialistas para cada gênero musical.
+                            </p>
+                            <ul class="list-inside list-disc text-texto-cinza text-left">
+                                <li>Presets por gênero</li>
+                                <li>Controle de 10 bandas</li>
+                                <li>Salva suas configurações</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col md:flex-row-reverse items-center gap-8 md:gap-12">
+                        <div class="w-full md:w-1/2">
+                            <img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8bXVzaWMsZGlzY292ZXJ5fHx8fHx8MTcyMTY5MzQyNA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080" alt="Descoberta de músicas" class="rounded-lg shadow-2xl shadow-roxo-melodia/20">
+                        </div>
+                        <div class="w-full md:w-1/2 text-center md:text-left">
+                            <h3 class="text-3xl font-bold mb-4 text-roxo-melodia">Rádios e Descobertas</h3>
+                            <p class="text-texto-cinza mb-4">
+                                Deixe que o Melodia te surpreenda. Nossas rádios baseadas em artistas, gêneros ou humor e as playlists de descoberta semanal são a porta de entrada para seus novos sons favoritos.
+                            </p>
+                            <ul class="list-inside list-disc text-texto-cinza text-left">
+                                <li>Playlists "Descobertas da Semana"</li>
+                                <li>Rádios por artistas e gêneros</li>
+                                <li>Sugestões baseadas no seu histórico</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section id="depoimentos" class="py-20 bg-black">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold text-center mb-12">
+                    O que nossos usuários dizem
+                </h2>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                    <div class="bg-fundo-escuro rounded-lg p-6 flex flex-col items-center text-center">
+                        <img src="https://i.pravatar.cc/150?u=a042581f4e29026704d" alt="Foto de perfil da Ana" class="w-20 h-20 rounded-full mb-4 border-2 border-roxo-melodia">
+                        <h3 class="text-xl font-bold mb-2">Ana Clara</h3>
+                        <p class="text-texto-cinza italic mb-4">
+                            "Finalmente um app que me ajuda a descobrir músicas novas que eu realmente gosto! A qualidade do som também é impecável."
+                        </p>
+                        <div class="text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+
+                    <div class="bg-fundo-escuro rounded-lg p-6 flex flex-col items-center text-center">
+                        <img src="https://i.pravatar.cc/150?u=a042581f4e29026704a" alt="Foto de perfil do Bruno" class="w-20 h-20 rounded-full mb-4 border-2 border-roxo-melodia">
+                        <h3 class="text-xl font-bold mb-2">Bruno Martins</h3>
+                        <p class="text-texto-cinza italic mb-4">
+                            "A interface é super fácil de usar, muito melhor que outros apps que já testei. Criar playlists nunca foi tão simples e divertido."
+                        </p>
+                        <div class="text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+
+                    <div class="bg-fundo-escuro rounded-lg p-6 flex flex-col items-center text-center">
+                        <img src="https://i.pravatar.cc/150?u=a042581f4e29026704b" alt="Foto de perfil da Carla" class="w-20 h-20 rounded-full mb-4 border-2 border-roxo-melodia">
+                        <h3 class="text-xl font-bold mb-2">Carla Souza</h3>
+                        <p class="text-texto-cinza italic mb-4">
+                            "Sou apaixonada pelo recurso de rádio por artistas. É a trilha sonora perfeita para o meu dia de trabalho. Recomendo muito!"
+                        </p>
+                        <div class="text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+         <section id="contato" class="py-20">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-4xl font-bold mb-4">Fique por dentro das novidades</h2>
+                <p class="text-texto-cinza max-w-xl mx-auto mb-8">
+                    Assine nossa newsletter para receber atualizações sobre novos recursos, artistas e playlists exclusivas diretamente no seu e-mail.
+                </p>
+
+                <form class="max-w-md mx-auto flex flex-col sm:flex-row gap-4">
+                    <input 
+                        type="email" 
+                        placeholder="Seu melhor e-mail" 
+                        required
+                        class="w-full px-5 py-3 bg-gray-800 border border-gray-700 rounded-full text-white focus:outline-none focus:ring-2 focus:ring-roxo-melodia transition"
+                    >
+                    <button 
+                        type="submit" 
+                        class="bg-roxo-melodia hover:bg-purple-700 text-white font-bold py-3 px-8 rounded-full transition duration-300 whitespace-nowrap"
+                    >
+                        Inscrever-se
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <footer class="bg-black py-8">
+            <div class="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between text-center md:text-left">
+                <div class="text-texto-cinza mb-4 md:mb-0">
+                    &copy; 2025 Melodia App. Todos os direitos reservados.
+                </div>
+
+                <div class="flex space-x-6 mb-4 md:mb-0">
+                    <a href="#" class="text-texto-cinza hover:text-roxo-melodia transition">
+                        <i class="fab fa-instagram text-2xl"></i>
+                    </a>
+                    <a href="#" class="text-texto-cinza hover:text-roxo-melodia transition">
+                        <i class="fab fa-twitter text-2xl"></i>
+                    </a>
+                    <a href="#" class="text-texto-cinza hover:text-roxo-melodia transition">
+                        <i class="fab fa-facebook-f text-2xl"></i>
+                    </a>
+                </div>
+
+                <div class="text-texto-cinza">
+                    <a href="#" class="hover:text-roxo-melodia transition">Política de Privacidade</a>
+                </div>
+            </div>
+        </footer>
+        </main>
+
+</body>
+</html>
